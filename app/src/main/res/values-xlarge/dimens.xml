@@ -1,0 +1,57 @@
+<resources>
+
+
+    <!-- Activity Main Dimens -->
+
+    <dimen name="rec_main_layout_recycler_margintop">14dp</dimen>
+    <dimen name="rec_main_layout_recycler_marginbottom">14dp</dimen>
+
+
+    <!-- Item Progress Dimens -->
+    <dimen name="linear_item_progress_layout_errorlayout_margintop">28dp</dimen>
+    <dimen name="linear_item_progress_layout_errorlayout_marginbottom">26dp</dimen>
+    <dimen name="imgbtn_item_progress_layout_loadmore_retry_marginleft">34dp</dimen>
+    <dimen name="imgbtn_item_progress_layout_loadmore_retry_marginstart">34dp</dimen>
+    <dimen name="imgbtn_item_progress_layout_loadmore_retry_padding">18dp</dimen>
+    <dimen name="linear_item_progress_layout_errortxt_container_marginleft">26dp</dimen>
+    <dimen name="linear_item_progress_layout_errortxt_container_marginright">34dp</dimen>
+    <dimen name="linear_item_progress_layout_errortxt_container_marginstart">26dp</dimen>
+    <dimen name="linear_item_progress_layout_errortxt_container_marginend">34dp</dimen>
+    <dimen name="txt_item_progress_layout_loadmore_errortxt_textsize">26sp</dimen>
+    <dimen name="txt_item_progress_layout_reload_textsize">22sp</dimen>
+
+
+    <!-- Error Layout Dimens -->
+
+    <dimen name="txt_error_layout_cannot_fetch_textsize">29sp</dimen>
+    <dimen name="txt_error_layout_cannot_fetch_padding">12dp</dimen>
+    <dimen name="txt_error_layout_cause_textsize">24sp</dimen>
+    <dimen name="txt_error_layout_cause_padding">12dp</dimen>
+    <dimen name="txt_error_layout_cause_margintop">14dp</dimen>
+    <dimen name="btn_error_layout_retry_margintop">34dp</dimen>
+    <dimen name="btn_error_layout_retry_textsize">26sp</dimen>
+
+
+    <!-- Item List Layout -->
+
+    <dimen name="card_item_list_layout_cardview_margin">5dp</dimen>
+    <dimen name="card_item_list_layout_cardview_corner_raduis">14dp</dimen>
+    <dimen name="card_item_list_layout_cardview_elevation">14dp</dimen>
+
+    <dimen name="reli_item_list_layout_container_padding">20dp</dimen>
+    <dimen name="reli_item_list_layout_container_margin">15dp</dimen>
+
+    <dimen name="txt_item_list_layout_repo_name_textsize">30sp</dimen>
+    <dimen name="txt_item_list_layout_owner_name_textsize">23sp</dimen>
+    <dimen name="txt_item_list_layout_owner_name_margintop">32dp</dimen>
+    <dimen name="txt_item_list_layout_repo_desc_textsize">23sp</dimen>
+    <dimen name="txt_item_list_layout_repo_desc_margintop">25dp</dimen>
+
+
+    <dimen name="paddingItemDecorationDefault">18dp</dimen>
+    <dimen name="paddingItemDecorationEdge">34dp</dimen>
+    <dimen name="poster_thumb_width">85dp</dimen>
+    <dimen name="poster_thumb_height">107dp</dimen>
+
+
+</resources>

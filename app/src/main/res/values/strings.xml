@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Zad Task</string>
+
+    <string name="all_app_unexpected_error">An unexpected error occurred</string>
+    <string name="all_app_no_internet_connection">No Internet Connection</string>
+    <string name="all_app_connection_timeout_error">The server took too long to respond</string>
+    <string name="all_app_cannot_fetch_repos">Sorry! Couldn\'t Fetch Repository"</string>
+    <string name="all_app_retry_to_fetch">Retry</string>
+
+    <string name="repository_adapter_owner_name">Owner Name : </string>
+    <string name="repository_adapter_unexpected_error">An unexpected error occurred</string>
+    <array name="repository_adapter_longclick_options">
+        <item>Repository Html Url</item>
+        <item>Owner Html Url</item>
+    </array>
+    <string name="repository_adapter_dialog_browse">Browse :</string>
+    <string name="repository_adapter_dialog_go">Go</string>
+
+    <string name="item_progress_layout_reload">Tap to Reload</string>
+
+</resources>

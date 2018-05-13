@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:background="#fafafa">
+
+    <ProgressBar
+        android:id="@+id/progress_item_progress_layout_loadmore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center" />
+
+    <LinearLayout
+        android:id="@+id/linear_item_progress_layout_errorlayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="?attr/selectableItemBackground"
+        android:clickable="true"
+        android:orientation="horizontal"
+        android:paddingBottom="@dimen/linear_item_progress_layout_errorlayout_marginbottom"
+        android:paddingTop="@dimen/linear_item_progress_layout_errorlayout_margintop"
+        android:visibility="gone"
+        tools:visibility="visible">
+
+        <ImageButton
+            android:id="@+id/imgbtn_item_progress_layout_loadmore_retry"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="@dimen/imgbtn_item_progress_layout_loadmore_retry_marginleft"
+            android:layout_marginStart="@dimen/imgbtn_item_progress_layout_loadmore_retry_marginstart"
+            android:background="@drawable/rety_selector"
+            android:padding="@dimen/imgbtn_item_progress_layout_loadmore_retry_padding"
+            android:src="@drawable/ic_refresh_black_24dp"
+            android:tint="@color/placeholder_green"
+            android:tintMode="src_in"
+            />
+
+        <LinearLayout
+            android:id="@+id/linear_item_progress_layout_errortxt_container"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginEnd="@dimen/linear_item_progress_layout_errortxt_container_marginend"
+            android:layout_marginLeft="@dimen/linear_item_progress_layout_errortxt_container_marginleft"
+            android:layout_marginRight="@dimen/linear_item_progress_layout_errortxt_container_marginright"
+            android:layout_marginStart="@dimen/linear_item_progress_layout_errortxt_container_marginstart"
+            android:gravity="center_vertical"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/txt_item_progress_layout_loadmore_errortxt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#202020"
+                android:textSize="@dimen/txt_item_progress_layout_loadmore_errortxt_textsize"
+                />
+
+            <TextView
+                android:id="@+id/txt_item_progress_layout_reload"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#737373"
+                android:textSize="@dimen/txt_item_progress_layout_reload_textsize"
+                android:text="@string/item_progress_layout_reload" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</FrameLayout>
